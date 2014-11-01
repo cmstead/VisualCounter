@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<div class="visual-counter" max="100" steps="100" duration="1000">
+    0
+</div>
+
+<div class="visual-counter" max="500000" steps="70" duration="1500">
+    0
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="scripts/min/visualCounter.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        visualCounter.startCount('.visual-counter');
+    });
+</script>
+
+</body>
+
+</html>
